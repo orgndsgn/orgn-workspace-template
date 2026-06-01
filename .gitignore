@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code local settings (per-user)
+.claude/settings.local.json
+
+# Node / scripts
+node_modules/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+
+# Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Temp / work
+00-inbox/*.tmp
+.playwright-mcp/
+
+# Skill cache
+.cache/
+
+# OMC state/cache (per-session, not source-controlled)
+.omc/
+**/.omc/
+
+# Personal content (do not commit private notes if this is a public fork)
+40-personal/41-daily/*/
+40-personal/42-weekly/*/
+40-personal/43-ideas/*.md
+40-personal/44-reflections/*/
+40-personal/46-todos/active-todos.md
+00-inbox/*.md
+50-resources/attachments/*
+50-resources/sample-data/*
+50-resources/web-research/*
+50-resources/53-recordings/*
+
+# Keep .gitkeep files
+!**/.gitkeep
+!**/README.md
